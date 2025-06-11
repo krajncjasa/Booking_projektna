@@ -1,0 +1,32 @@
+#obrazec{
+            text-align: center;
+            border: solid black 2px;
+            width: 400px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -40%);
+            padding: 20px;
+        }
+.vnos{
+            margin: 15px;
+            padding: 5px;
+        }
+#obrazec2{
+                width: 700px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            table, th, td{
+	            border:1px solid black;
+            }
+            td{
+                height: 50px;
+            }
+            table{
+	            border-collapse: collapse;
+            }
+#opis{
+                width: 300px;
+                height: 100px;
+            }
