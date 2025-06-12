@@ -11,7 +11,7 @@ if(isset($_POST['subm'])){
 
     $m=$_POST['email']; 
 
-    $g=$_POST['geslo'];
+    $g = sha1($_POST['geslo']);
 
     $t=$_POST['tel'];
 
@@ -49,6 +49,18 @@ if(isset($_POST['subm'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registracija</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #obrazec{
+            text-align: center;
+            border: solid black 2px;
+            width: 400px;
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -40%);
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
     <?php include_once 'glava.php';?>
