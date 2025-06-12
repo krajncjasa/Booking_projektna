@@ -51,5 +51,6 @@ $result = mysqli_query($link, $query);
         <input type="submit" name="subm" value="Pošlji" class="forma" id="subm">
         <input type="button" name="prikaz_vseh" value="Prikaz vseh nastanitev" class="forma" onclick="window.location.href='izpis_apartmajev_vseh.php'">
         </form>
+        <?php include 'footer.php' ?>
     </body>
 </html>
