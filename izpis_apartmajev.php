@@ -62,7 +62,7 @@ echo $m . $ida;
     <style>
             #obrazec2{
                 width: 700px;
-                margin: 0 auto;
+                margin-right: 50px;
                 padding: 20px;
             }
             table, th, td{
