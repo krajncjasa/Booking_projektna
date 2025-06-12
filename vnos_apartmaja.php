@@ -81,7 +81,7 @@ if (isset($_POST['subm'])) {
 <html lang="sl">
     <head>
         <meta charset="UTF-8">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vnos apartmaja</title>
         <style>
             #reg_obrazec{
@@ -89,7 +89,7 @@ if (isset($_POST['subm'])) {
             border: solid black 2px;
             width: 500px;
             position: absolute;
-            top: 50%;
+            top: 70%;
             left: 50%;
             transform: translate(-50%, -20%);
             padding: 20px;
