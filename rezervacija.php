@@ -75,5 +75,6 @@ if (isset($_POST['subm'])){
             <input type="number" name="st_odraslih" class="forma" min="0" required placeholder="Vnesite število odraslih"><br>
             <input type="submit" name="subm" value="Pošlji" class="forma" id="subm"></span>
         </form>
+        <?php include 'footer.php'; ?>
     </body>
 </html>
