@@ -12,7 +12,7 @@
         if(isset($_SESSION['name']) && $_SESSION['name'] == 'admin') {
             echo '<a href="odjava.php"><button class="gumbi1">Odjava</button></a>';
             echo '<a href="index.php"><button class="gumbi1">Vnos apartmaja</button></a>';
-        }else if(isset($_SESSION['log']) && $_SESSION['log'] === TRUE) {
+           }else if(isset($_SESSION['log']) && $_SESSION['log'] === TRUE) {
                 echo '<a href="odjava.php"><button class="gumbi1">Odjava</button></a>';
                 echo '<a href="vnos_apartmaja.php"><button class="gumbi1">Vnos apartmaja</button></a>';
                 echo '<a href="moj_profil.php"><button class="gumbi1">Moj profil</button></a>';
