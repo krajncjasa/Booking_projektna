@@ -64,5 +64,6 @@ if (isset($_GET['id'])){
     </form>
     </table>
     </div>
+    <?php include 'footer.php'; ?>
 </body>
 </html>
