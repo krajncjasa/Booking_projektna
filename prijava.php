@@ -7,7 +7,9 @@ if(isset($_POST['subm'])){
     $m = mysqli_real_escape_string($link, $_POST['email']);
     $g = mysqli_real_escape_string($link, $_POST['geslo']);
 
-    $query = "SELECT * FROM uporabniki WHERE email='$m' AND geslo='$g'";
+    $h = sha1($g);
+
+    $query = "SELECT * FROM uporabniki WHERE email='$m' AND geslo='$h'";
     $result = mysqli_query($link, $query);
 
     if($_POST['email'] == 'admin@gmail.com' && $_POST['geslo'] == 'admin'){
