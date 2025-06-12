@@ -54,7 +54,7 @@ if (isset($_POST['subm'])) {
             border: solid black 2px;
             width: 500px;
             position: absolute;
-            top: 50%;
+            top: 400px;
             left: 50%;
             transform: translate(-50%, -20%);
             padding: 20px;
