@@ -47,8 +47,8 @@ if (isset($_POST['submi'])) {
     }
 if(isset($_POST['reset'])) {
     $dodatki = $_POST['dodatki'] ?? [];
-    $min_cena = $_POST['min_cena'];
-    $max_cena = $_POST['max_cena'];
+    $min_cena = $_POST['min_cena'] ?? [];
+    $max_cena = $_POST['max_cena'] ?? [];
         
 }   
 ?>
